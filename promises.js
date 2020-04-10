@@ -35,11 +35,3 @@ let txt = 'https://unknownlurkr.github.io/funky-products/chad.txt';
     (async() => {
         await txtInfo(); //awaiting for txtInfo to be called once browser has loaded the page
     })();
-/*grabing the text file created to upload the text content of the p tags within the html 
-fetch(txt).then(response =>{
-    console.log(response);
-    return response.text();
-}).then(blob  => {
-    console.log(blob);
-    document.querySelector('p').textContent = blob;
-}) */
