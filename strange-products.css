@@ -23,7 +23,7 @@ section{
     position: block;
 }
 
-
+/*the animation colours for the heading */
 @keyframes profile {
     from {background-color: #1ce;}
     to {background-color: #c0c0c0;}
