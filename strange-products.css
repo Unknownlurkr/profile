@@ -2,32 +2,29 @@
     box-sizing: border-box;
   }
 
-  html {
-	background-color: linear-gradient();
-}
 body {
 	font-size: 100%;
 	font-family: "Helvetica", Arial, sans-serif;
 	color: #333;
 	width: 760px;
-	background-color: #FFF;
+	background-color: silver;
 	margin: 20px auto;
-	padding: 2em 2em 4em 2em;
+  padding: 2em 2em 4em 2em;
 }
 h1 {
 	text-align: center;
-    color: grey;
+    color: white;
     background-color: black;
-    animation-name: product;
-    animation-duration: 4s;
-    
+    animation-name: profile;
+    animation-duration: 1s;
 }
 
 section{
     position: block;
 }
 
-@keyframes product {
+
+@keyframes profile {
     from {background-color: #1ce;}
     to {background-color: #c0c0c0;}
   }
