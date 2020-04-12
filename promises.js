@@ -35,3 +35,4 @@ let txt = 'https://unknownlurkr.github.io/funky-products/chad.txt';
     (async() => {
         await txtInfo(); //awaiting for txtInfo to be called once browser has loaded the page
     })();
+ 
